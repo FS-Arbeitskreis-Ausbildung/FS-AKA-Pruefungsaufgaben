@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="FsPruefungsaufgabenkatalog" type="fsPruefungsaufgabenkatalog"/>
+
+  <xs:complexType name="fsPruefungsaufgabenkatalog">
+    <xs:sequence>
+      <xs:element name="multipleChoiceFragenListe" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="multipleChoiceFrage" type="multipleChoiceFrage" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="textFragenListe" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="textFrage" type="textfrage" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="multipleChoiceFrage">
+    <xs:sequence>
+      <xs:element name="hatRessourcen" type="xs:boolean"/>
+      <xs:element name="fachkundegruppenListe" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="fachkundegruppe" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="themenbereichListe" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="themenbereich" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="bedeutung" type="xs:int" minOccurs="0"/>
+      <xs:element name="zeit" type="xs:int" minOccurs="0"/>
+      <xs:element name="unterlagen" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="nummer" type="xs:string"/>
+      <xs:element name="aufgabe" type="xs:string"/>
+      <xs:element name="antwortList" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="antwort" type="multipleChoiceAntwort" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="multipleChoiceAntwort">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="antwort" type="xs:string"/>
+      <xs:element name="korrekt" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="textfrage">
+    <xs:sequence>
+      <xs:element name="nummer" type="xs:string"/>
+      <xs:element name="hatRessourcen" type="xs:boolean"/>
+      <xs:element name="fachkundegruppenListe" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="fachkundegruppe" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="themenbereichListe" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="themenbereich" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="zeit" type="xs:int" minOccurs="0"/>
+      <xs:element name="bedeutung" type="xs:int" minOccurs="0"/>
+      <xs:element name="unterlagen" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="aufgabe" type="xs:string"/>
+      <xs:element name="loesung" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
