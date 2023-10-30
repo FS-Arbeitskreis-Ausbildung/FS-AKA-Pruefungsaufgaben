@@ -57,7 +57,7 @@
   <xs:complexType name="multipleChoiceAntwort">
     <xs:sequence>
       <xs:element name="id" type="xs:string"/>
-      <xs:element name="antwort" type="xs:string"/>
+      <xs:element name="text" type="xs:string"/>
       <xs:element name="korrekt" type="xs:boolean"/>
     </xs:sequence>
   </xs:complexType>

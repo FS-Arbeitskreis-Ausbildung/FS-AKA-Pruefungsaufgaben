@@ -59,22 +59,22 @@
             <antwortList>
                 <antwort>
                     <id>a</id>
-                    <antwort>IAEA-Empfehlungen</antwort>
+                    <text>IAEA-Empfehlungen</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>b</id>
-                    <antwort>die atomrechtliche Deckungsvorsorge-verordnung</antwort>
+                    <text>die atomrechtliche Deckungsvorsorge-verordnung</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>c</id>
-                    <antwort>die DIN-Normen</antwort>
+                    <text>die DIN-Normen</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>d</id>
-                    <antwort>das Strahlenschutzgesetz</antwort>
+                    <text>das Strahlenschutzgesetz</text>
                     <korrekt>true</korrekt>
                 </antwort>
             </antwortList>
@@ -108,22 +108,22 @@
             <antwortList>
                 <antwort>
                     <id>a</id>
-                    <antwort>Grundgesetz</antwort>
+                    <text>Grundgesetz</text>
                     <korrekt>true</korrekt>
                 </antwort>
                 <antwort>
                     <id>b</id>
-                    <antwort>Strahlenschutzgesetz</antwort>
+                    <text>Strahlenschutzgesetz</text>
                     <korrekt>true</korrekt>
                 </antwort>
                 <antwort>
                     <id>c</id>
-                    <antwort>Umweltschutzgesetz</antwort>
+                    <text>Umweltschutzgesetz</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>d</id>
-                    <antwort>Arbeitsschutzgesetz</antwort>
+                    <text>Arbeitsschutzgesetz</text>
                     <korrekt>false</korrekt>
                 </antwort>
             </antwortList>
@@ -162,22 +162,22 @@
             <antwortList>
                 <antwort>
                     <id>a</id>
-                    <antwort>Das Strahlenschutzgesetz ist eine übergeordnete Bestimmung, die die Belange des Strahlenschutzrechts regelt. Die Strahlenschutz-verordnung legt Einzelheiten für bestimmte Anwendungen fest.</antwort>
+                    <text>Das Strahlenschutzgesetz ist eine übergeordnete Bestimmung, die die Belange des Strahlenschutzrechts regelt. Die Strahlenschutz-verordnung legt Einzelheiten für bestimmte Anwendungen fest.</text>
                     <korrekt>true</korrekt>
                 </antwort>
                 <antwort>
                     <id>b</id>
-                    <antwort>Die StrlSchV regelt die Belange der Kernenergie und des Strahlenschutzrechts und geht dem Strahlenschutzgesetz vor. Das Strahlenschutzgesetz behandelt ausschließlich die Belange des Strahlenschutzrechts.</antwort>
+                    <text>Die StrlSchV regelt die Belange der Kernenergie und des Strahlenschutzrechts und geht dem Strahlenschutzgesetz vor. Das Strahlenschutzgesetz behandelt ausschließlich die Belange des Strahlenschutzrechts.</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>c</id>
-                    <antwort>Strahlenschutzgesetz und StrlSchV sind gleichrangig nebeneinander zu werten. Der Unterschied besteht lediglich darin, dass das Strahlenschutzgesetz die Belange des Kernenergie- und Strahlenschutzrechtes regelt. Die StrlSchV hingegen behandelt ausschließlich die Belange des Strahlenschutzrechts.</antwort>
+                    <text>Strahlenschutzgesetz und StrlSchV sind gleichrangig nebeneinander zu werten. Der Unterschied besteht lediglich darin, dass das Strahlenschutzgesetz die Belange des Kernenergie- und Strahlenschutzrechtes regelt. Die StrlSchV hingegen behandelt ausschließlich die Belange des Strahlenschutzrechts.</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>d</id>
-                    <antwort>Die StrlSchV regelt die Belange der Kernenergie und des Strahlenschutzrechts und geht dem Strahlenschutzgesetz vor.</antwort>
+                    <text>Die StrlSchV regelt die Belange der Kernenergie und des Strahlenschutzrechts und geht dem Strahlenschutzgesetz vor.</text>
                     <korrekt>false</korrekt>
                 </antwort>
             </antwortList>
@@ -216,22 +216,22 @@
             <antwortList>
                 <antwort>
                     <id>a</id>
-                    <antwort>Arbeitssicherheitsgesetz</antwort>
+                    <text>Arbeitssicherheitsgesetz</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>b</id>
-                    <antwort>Arbeitsschutzgesetz</antwort>
+                    <text>Arbeitsschutzgesetz</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>c</id>
-                    <antwort>Sozialgesetzbuch VII</antwort>
+                    <text>Sozialgesetzbuch VII</text>
                     <korrekt>false</korrekt>
                 </antwort>
                 <antwort>
                     <id>d</id>
-                    <antwort>Strahlenschutzgesetz</antwort>
+                    <text>Strahlenschutzgesetz</text>
                     <korrekt>true</korrekt>
                 </antwort>
             </antwortList>
